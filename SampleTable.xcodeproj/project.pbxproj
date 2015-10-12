@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		166D8D731BCBF1AB00ED5BF5 /* SimpleTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 166D8D721BCBF1AB00ED5BF5 /* SimpleTableCell.m */; settings = {ASSET_TAGS = (); }; };
 		16C326431BCB9FC800AB6422 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C326421BCB9FC800AB6422 /* main.m */; };
 		16C326461BCB9FC800AB6422 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C326451BCB9FC800AB6422 /* AppDelegate.m */; };
 		16C326491BCB9FC800AB6422 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C326481BCB9FC800AB6422 /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		16C326511BCB9FC800AB6422 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16C3264F1BCB9FC800AB6422 /* LaunchScreen.storyboard */; };
 		16C3265C1BCB9FC800AB6422 /* SampleTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C3265B1BCB9FC800AB6422 /* SampleTableTests.m */; };
 		16C326671BCB9FC800AB6422 /* SampleTableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C326661BCB9FC800AB6422 /* SampleTableUITests.m */; };
+		16C326751BCBA39600AB6422 /* creme_brelee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 16C326741BCBA39600AB6422 /* creme_brelee.jpg */; settings = {ASSET_TAGS = (); }; };
+		16C326771BCBA77B00AB6422 /* SimpleTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16C326761BCBA77B00AB6422 /* SimpleTableCell.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		166D8D711BCBF1AB00ED5BF5 /* SimpleTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleTableCell.h; path = ../SimpleTableCell.h; sourceTree = "<group>"; };
+		166D8D721BCBF1AB00ED5BF5 /* SimpleTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleTableCell.m; path = ../SimpleTableCell.m; sourceTree = "<group>"; };
 		16C3263E1BCB9FC800AB6422 /* SampleTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16C326421BCB9FC800AB6422 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		16C326441BCB9FC800AB6422 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,8 @@
 		16C326621BCB9FC800AB6422 /* SampleTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16C326661BCB9FC800AB6422 /* SampleTableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleTableUITests.m; sourceTree = "<group>"; };
 		16C326681BCB9FC800AB6422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16C326741BCBA39600AB6422 /* creme_brelee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = creme_brelee.jpg; path = ../../../creme_brelee.jpg; sourceTree = "<group>"; };
+		16C326761BCBA77B00AB6422 /* SimpleTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleTableCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +108,14 @@
 		16C326401BCB9FC800AB6422 /* SampleTable */ = {
 			isa = PBXGroup;
 			children = (
+				166D8D711BCBF1AB00ED5BF5 /* SimpleTableCell.h */,
+				166D8D721BCBF1AB00ED5BF5 /* SimpleTableCell.m */,
+				16C326741BCBA39600AB6422 /* creme_brelee.jpg */,
 				16C326441BCB9FC800AB6422 /* AppDelegate.h */,
 				16C326451BCB9FC800AB6422 /* AppDelegate.m */,
 				16C326471BCB9FC800AB6422 /* ViewController.h */,
 				16C326481BCB9FC800AB6422 /* ViewController.m */,
+				16C326761BCBA77B00AB6422 /* SimpleTableCell.xib */,
 				16C3264A1BCB9FC800AB6422 /* Main.storyboard */,
 				16C3264D1BCB9FC800AB6422 /* Assets.xcassets */,
 				16C3264F1BCB9FC800AB6422 /* LaunchScreen.storyboard */,
@@ -244,6 +255,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				16C326511BCB9FC800AB6422 /* LaunchScreen.storyboard in Resources */,
+				16C326771BCBA77B00AB6422 /* SimpleTableCell.xib in Resources */,
+				16C326751BCBA39600AB6422 /* creme_brelee.jpg in Resources */,
 				16C3264E1BCB9FC800AB6422 /* Assets.xcassets in Resources */,
 				16C3264C1BCB9FC800AB6422 /* Main.storyboard in Resources */,
 			);
@@ -272,6 +285,7 @@
 			files = (
 				16C326491BCB9FC800AB6422 /* ViewController.m in Sources */,
 				16C326461BCB9FC800AB6422 /* AppDelegate.m in Sources */,
+				166D8D731BCBF1AB00ED5BF5 /* SimpleTableCell.m in Sources */,
 				16C326431BCB9FC800AB6422 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +512,7 @@
 				16C3266D1BCB9FC800AB6422 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16C3266E1BCB9FC800AB6422 /* Build configuration list for PBXNativeTarget "SampleTableTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +521,7 @@
 				16C326701BCB9FC800AB6422 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16C326711BCB9FC800AB6422 /* Build configuration list for PBXNativeTarget "SampleTableUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +530,7 @@
 				16C326731BCB9FC800AB6422 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
